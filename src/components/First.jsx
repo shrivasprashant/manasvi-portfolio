@@ -11,12 +11,12 @@ const First = () => {
       </div>
       <div className="relative flex justify-center items-center">
         <div className="absolute inset-0 flex justify-center items-center">
-          <div className="w-72 h-72 rounded-full bg-gradient-to-r from-teal-600 to-teal-400 blur-3xl"></div>
+          <div className="w-72 h-72 rounded-full bg-gradient-to-r from-teal-600 to-teal-500 blur-3xl transition-opacity duration-300 group-hover:opacity-70"></div>
         </div>
         <img
           width={500}
           height={500}
-          className="relative z-10 object-cover rounded-full"
+          className="relative z-10 object-cover rounded-full transition-transform duration-300 transform group-hover:scale-105"
           src={profile}
           alt="Profile"
         />
