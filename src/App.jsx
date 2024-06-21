@@ -4,10 +4,9 @@ import First from './components/First'
 
 const App = () => {
   return (
-    <div className='bg-white  '>
+    <div className='bg-white w-full  '>
       <Nav />
       <First />
-
     </div>
   )
 }
