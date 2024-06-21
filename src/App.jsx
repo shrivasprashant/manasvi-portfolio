@@ -3,6 +3,7 @@ import Nav from './components/Nav'
 import First from './components/First'
 import Services from './components/Services'
 import Products from './components/Products'
+import Client from './components/Client'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <First />
       <Products />
       <Services />
+      <Client />
     </div>
   )
 }
