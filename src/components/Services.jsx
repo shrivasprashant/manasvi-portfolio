@@ -68,7 +68,7 @@ const Services = () => {
             <div>
             <img src={dig} alt="" />
            <h1 className=" mt-2">
-          Digital Mark
+          Digital Marketing
           <img className="mt-2" src={awrro} alt="" />
           </h1>
             </div>
