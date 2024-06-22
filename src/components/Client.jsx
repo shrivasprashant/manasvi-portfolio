@@ -17,15 +17,26 @@ const Client = () => {
             achievements of Manasvi Technologies through the lens of its most
             valuable asset—its clients.
           </p>
-          <div className="flex ml-80 space-x-64 gap-  mt-10 ">
+          <div className="flex ml-80 space-x-44 mt-4  ">
 
-            <div className="w-60 h-14 bg-red-50 text-black text-center font-serif p-1 rounded-md ">
-              <h1>MANVIKA PARMHA</h1>
+            <div className="w-72 gap-2 flex h-20 bg-red-50 text-black text-center font-serif p-1 rounded-md ">
+
+              <img className="w-28" src="https://manasviportfolio.online/static/media/manvika%20Pharma.5d10789d3f3f60eb7faa.png" alt=" " />
+
+              <div>
+              <h1  className=" mt-4 text-nowrap">MANVIKA PARMHA</h1>
                 ⭐⭐⭐⭐⭐
+              </div>
+
             </div>
-            <div className="w-60 h-14 bg-red-50 text-black text-center font-serif p-1 rounded-md ">
-              <h1>MCS</h1>
+            <div className="w-72 gap-2 flex h-20 bg-red-50 text-black text-center font-serif p-1 rounded-md ">
+
+              <img className="w-28" src=" " alt=" " />
+              <div>
+              <h1  className=" mt-4 text-nowrap">MCS</h1>
                 ⭐⭐⭐⭐⭐
+              </div>
+
             </div>
           </div>
         </div>

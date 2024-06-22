@@ -20,21 +20,21 @@ const Services = () => {
         </h1>
         <p className=" ">
           Manasvi Technologies (OPC) Pvt. Ltd is at the forefront of digital{" "}
-          <br /> innovation, offering comprehensive services in web development,{" "}
-          <br /> digital marketing, app development, and IT services. Our team
-          of <br /> experts is dedicated to delivering cutting-edge solutions
-          that drive <br /> br growth and efficiency for our clients. By
-          leveraging the latest <br /> technologies and trends, we ensure your
-          business stays ahead in the <br /> competitive digital landscape.
-          Whether you're looking to build a <br /> dynamic website, enhance your
-          online presence, develop a mobile <br /> app, or streamline your IT
-          operations, Manasvi Technologies is your <br /> partner in digital
+           innovation, offering comprehensive services in web development,{" "}
+           digital marketing, app development, and IT services. Our team
+          of  experts is dedicated to delivering cutting-edge solutions
+          that drive  br growth and efficiency for our clients. By
+          leveraging the latest  technologies and trends, we ensure your
+          business stays ahead in the  competitive digital landscape.
+          Whether you're looking to build a  dynamic website, enhance your
+          online presence, develop a mobile  app, or streamline your IT
+          operations, Manasvi Technologies is your  partner in digital
           excellence.
         </p>
         </div>
 
         <div>
-          <img className="w-[500px] ml-64" src={new1} alt="" />
+          {/* <img className="w-[500px] ml-64" src={new1} alt="" /> */}
         </div>
       </div>
       <div>
@@ -68,7 +68,7 @@ const Services = () => {
             <div>
             <img src={dig} alt="" />
            <h1 className=" mt-2">
-          Digital Mark
+          Digital Marketing
           <img className="mt-2" src={awrro} alt="" />
           </h1>
             </div>
