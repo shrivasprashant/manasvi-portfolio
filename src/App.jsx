@@ -1,18 +1,14 @@
 import React from 'react'
 import Nav from './components/Nav'
-import First from './components/First'
-import Services from './components/Services'
-import Products from './components/Products'
-import Client from './components/Client'
+import Routess from './components/Routess'
+import Footerr from './components/Footerr'
 
 const App = () => {
   return (
-    <div className='bg-black w-full  '>
-      <Nav />
-      <First />
-      <Products />
-      <Services />
-      <Client />
+    <div className='bg-black w-full relative '>
+      {/* <Nav /> */}
+      <Routess />
+      {/* <Footerr /> */}
     </div>
   )
 }

@@ -21,3 +21,174 @@ body {
   background: #000;
   border-radius: 10px;
 }
+
+
+
+/* .rotating-wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px; 
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.rotating-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 1s;
+}
+
+.rotating-div.top {
+  transform: rotateX(0deg) translateZ(100px);
+  z-index: 2;
+}
+
+.rotating-div.bottom {
+  transform: rotateX(180deg) translateZ(-100px);
+  z-index: 1;
+} */
+
+
+/* .rotating-wrapper {
+  position: relative;
+  width: 200px; 
+  height: 200px; 
+  perspective: 1000px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  background-color: aqua;
+  padding: 10px;
+}
+
+.rotating-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 1s;
+}
+
+.rotating-div.front {
+  transform: rotateY(0deg) translateZ(100px);
+  z-index: 3;
+}
+
+.rotating-div.left {
+  transform: rotateY(120deg) translateZ(100px);
+  z-index: 2;
+}
+
+.rotating-div.right {
+  transform: rotateY(240deg) translateZ(100px);
+  z-index: 1;
+} */
+
+/* .rotating-wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.rotating-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 1s;
+}
+
+.rotating-div.front {
+  transform: rotateY(0deg) translateZ(100px);
+  z-index: 3;
+}
+
+.rotating-div.back {
+  transform: rotateY(180deg) translateZ(-100px);
+  z-index: 1;
+}
+
+.rotating-div.bottom {
+  transform: rotateY(0deg) translateZ(-100px);
+  z-index: 2;
+} */
+
+.rotating-wrapper {
+  position: relative;
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.rotating-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: transform 1s, z-index 1s, opacity 1s;
+}
+
+.rotating-div.front {
+  transform: translateY(0) scale(1.2);
+  z-index: 3;
+  opacity: 1;
+}
+
+.rotating-div.left {
+  transform: translateX(-150px) translateY(100px) scale(0.8);
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.rotating-div.right {
+  transform: translateX(150px) translateY(100px) scale(0.8);
+  z-index: 1;
+  opacity: 0.8;
+}
+
+
+
+.hover-rotating-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  height: 300px; /* Adjust the height as needed */
+}
+
+.hover-rotating-container {
+  position: relative;
+  width: 200px; /* Adjust the size as needed */
+  height: 200px; /* Adjust the size as needed */
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.hover-rotating-wrapper:hover .hover-rotating-container {
+  transform: rotateX(180deg);
+}
+
+.hover-rotating-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.front {
+  background-color: #3498db;
+}
+
+.back {
+  background-color: #e74c3c;
+  transform: rotateX(180deg);
+}

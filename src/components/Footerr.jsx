@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaFacebook, FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 
-function Footer() {
+function Footerr() {
     return (
-        <div className="h-screen w-full bg-black text-white flex flex-col items-center justify-center px-4 md:px-5 py-10">
+        <div className="h-screen w-full bg-black text-white flex flex-col items-center justify-center px-6 md:px-6 py-10 fixed z-1 bottom-0">
             <div className="w-full max-w-screen-lg border-t border-b border-gray-500 py-20">
                 <div className="flex flex-col md:flex-row justify-between gap-10">
                     <div className="flex flex-col items-center md:items-start my-4">
@@ -64,4 +64,4 @@ function Footer() {
     );
 }
 
-export default Footer;
+export default Footerr;
